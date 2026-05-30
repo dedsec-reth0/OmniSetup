@@ -11,4 +11,7 @@
 Open your terminal (or PowerShell as Administrator on Windows) and paste the command below:
 
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OmniSetup/main/omnisetup.cmd](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OmniSetup/main/omnisetup.cmd) | bash 2>/dev/null || powershell -NoProfile -ExecutionPolicy Bypass -Command "iex (irm [https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OmniSetup/main/omnisetup.cmd](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/OmniSetup/main/omnisetup.cmd))"
+bash <(curl -fsSL https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)
+
+```powershell
+iex (irm https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)
