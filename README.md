@@ -8,10 +8,8 @@
 
 ## ⚡ Quick Start
 
-Open your terminal (or PowerShell as Administrator on Windows) and paste the command below:
+# Linux / macOS
+```bash <(curl -fsSL https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)```
 
-```bash
-bash <(curl -fsSL https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)
-
-```powershell
-iex (irm https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)
+# Windows (PowerShell)
+```iex (irm https://github.com/dedsec-reth0/OmniSetup/releases/download/Release/omnisetup.cmd)```
